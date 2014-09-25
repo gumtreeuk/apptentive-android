@@ -34,20 +34,12 @@
         <developerConnection>scm:git:git://github.com/gumtreeuk/apptentive-android.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
-    <!-- scm>
-        <connection>scm:svn:https://svn.corp.mobile.de/svn/ecg-common/ecg-common-api/trunk</connection>
-    </scm -->
     <distributionManagement>
         <repository>
             <id>ProtectedReleases</id>
             <name>Protected Releases</name>
-            <url>http://nexus.ci.gumtree.com/nexus/content/repositories/ProtectedReleases/</url>
+            <url>http://nexus.ci.gumtree.com/nexus/content/repositories/thirdparty/</url>
         </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>snapshots</name>
-            <url>http://nexus.ci.gumtree.com/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
     </distributionManagement>
     <dependencies>
         <!-- Android APIs -->
